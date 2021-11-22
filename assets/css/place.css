@@ -1,0 +1,216 @@
+@charset "shift_jis";
+#placetable p {
+  font-size: 10px;
+  line-height: 13px;
+  width: 50% !important;
+}
+#placetable td { vertical-align: top; }
+#map { padding-bottom: 20px; }
+#map img {
+  width: 100%;
+}
+#other h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#other h3 {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+#placeleft p {
+  padding-right: 10px;
+  padding-left: 110px;
+}
+#placeright p { padding-left: 120px; 
+}
+
+/* CSS Document */
+
+#place1 {
+  background-image: url(../img/place_01.jpg);
+  background-repeat: no-repeat;
+  height: 248px;
+  width: 299px;
+}
+#place1 p { padding-top: 158px; 
+}
+
+#place2 {
+  background-image: url(../img/place_03.jpg);
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 299px;
+}
+#place2 p { padding-top: 32px; }
+
+#place3 {
+  background-image: url(../img/place_05.jpg);
+  background-repeat: no-repeat;
+  height: 124px;
+  width: 299px;
+}
+#place3 p { padding-top: 33px; }
+
+#place4 {
+  background-image: url(../img/place_07.jpg);
+  background-repeat: no-repeat;
+  height: 129px;
+  width: 299px;
+}
+#place4 p { padding-top: 37px; }
+#place5 {
+  background-image: url(../img/place_09.jpg);
+  background-repeat: no-repeat;
+  height: 251px;
+  width: 299px;
+}
+#place5 p { padding-top: 163px; }
+#place6 {
+  background-image: url(../img/place_13.jpg);
+  background-repeat: no-repeat;
+  height: 124px;
+  width: 299px;
+}
+#place6 p { padding-top: 35px; }
+#place20 {
+  background-image: url(../img/place_15.jpg);
+  background-repeat: no-repeat;
+  height: 129px;
+  width: 299px;
+}
+#place20 p { padding-top: 34px; }
+
+
+#place7 {
+  background-image: url(../img/place_16.jpg);
+  background-repeat: no-repeat;
+  height: 135px;
+  width: 299px;
+}
+#place7 p { padding-top: 43px; }
+#place8 {
+  background-image: url(../img/place_19.jpg);
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 299px;
+}
+#place8 p { padding-top: 31px; }
+
+#place9 {
+  background-image: url(../img/place_18.jpg);
+  background-repeat: no-repeat;
+  height: 121px;
+  width: 299px;
+}
+
+#place9 p { padding-top: 45px; }
+#place10 {
+  background-image: url(../img/place_02.jpg);
+  background-repeat: no-repeat;
+  height: 248px;
+  width: 301px;
+}
+#place10 p { padding-top: 158px; }
+#place11 {
+  background-image: url(../img/place_04.jpg);
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 301px;
+}
+#place11 p { padding-top: 33px; }
+
+#place12 {
+  background-image: url(../img/place_06.jpg);
+  background-repeat: no-repeat;
+  height: 124px;
+  width: 301px;
+}
+#place12 p { padding-top: 35px; }
+
+#place13 {
+  background-image: url(../img/place_08.jpg);
+  background-repeat: no-repeat;
+  height: 129px;
+  width: 301px;
+}
+#place13 p { padding-top: 35px; }
+
+#place14 {
+  background-image: url(../img/place_10.jpg);
+  background-repeat: no-repeat;
+  height: 122px;
+  width: 301px;
+}
+#place14 p { padding-top: 31px; }
+
+#place15 {
+  background-image: url(../img/place_11.jpg);
+  background-repeat: no-repeat;
+  height: 127px;
+  width: 301px;
+}
+#place15 p { padding-top: 33px; }
+
+#place16 {
+  background-image: url(../img/place_12.jpg);
+  background-repeat: no-repeat;
+  height: 124px;
+  width: 301px;
+}
+#place16 p { padding-top: 30px; }
+
+#place17 {
+  background-image: url(../img/place_14.jpg);
+  background-repeat: no-repeat;
+  height: 145px;
+  width: 301px;
+}
+#place17 p { padding-top: 43px; }
+
+#place18 {
+  background-image: url(../img/place_17.jpg);
+  background-repeat: no-repeat;
+  height: 112px;
+  width: 301px;
+}
+#place18 p { padding-top: 29px; }
+#place21 {
+  background-image: url(../img/place_18.jpg);
+  background-repeat: no-repeat;
+  height: 134px;
+  width: 301px;
+}
+#place21 p { padding-top: 38px; }
+
+
+#place19 p{ padding-top: 43px; }
+#place19 {
+  background-image: url(../img/place_19.jpg);
+  background-repeat: no-repeat;
+  height: 121px;
+  width: 301px;
+}
+
+@media (max-width: 700px) {
+  #placetable tbody tr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #placetable #placeright {
+    padding-top: 64px;
+  }
+  #place1 {
+    background-position: center;
+    width: 100%;
+  }
+  #place1 p {
+    padding-left: 42%;
+  }
+  #place8 p {
+    width: 67% !important;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}

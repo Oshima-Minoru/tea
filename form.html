@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tea</title>
+		<link href="./assets/css/common.css" rel="stylesheet" type="text/css" />
+		<link href="./assets/css/place.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<div>
+				<a href="./index.html"><img src="./assets/img/logo.svg" alt="logo"></a>
+				
+				<div class="menu-btn sp" onclick="menuClick(this)">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+		<div class="menu" onclick="menuClose()">
+			<div><a href="./index.html">ホーム</a></div>
+			<div><a href="./aboutus.html">ジャパン•ティiトレーディング社について</a></div>
+			<div><a href="./brand.html">ブランド紹介</a></div>
+			<div><a href="./forcompany.html">法人のお客様</a></div>
+			<div><a href="./businessuse.html">企業悄報</a></div>
+			<div><a href="./form.html">お問い合わせ</a></div>
+		</div>
+		<div id="wrapper">
+			<div id="container">
+				<div id="contents">
+					<h2 class="banner-img">
+						<img src="./assets/img/header_form.jpg" alt="お問い合わせ" width="640" height="165">
+					</h2>
+					<div id="content_page">
+						<p>
+							必要事項を記入の上送信ボタンをクリックしてください。<br />
+							※は記入必須項目です。<br />
+							商品の購入について、販売店についてのご質問の方は、お住まいの地域と、<br />
+							購入したい商品を記入してください。<br />
+							最寄りの販売店のご紹介をさせていただきます。
+						</p>
+						<table class="contact-table">
+							<tr>
+								<td>お名前※</td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>お名前(フリガナ)※</td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>メールアドレス※</td>
+								<td><input type="text"></td>
+							</tr>
+							<tr>
+								<td>詳細</td>
+								<td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+							</tr>
+						</table>
+							<input type="submit" class="submit-btn" value="送信">
+
+<!-- 
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" id="plo_tex">
+								<tr>
+									<td class="itemform">お名前※</td>
+									<td class="con"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" size="40" /></span></td>
+								</tr>
+								<tr>
+									<td class="itemform">お名前(フリガナ)※</td>
+									<td class="con"><span class="wpcf7-form-control-wrap furigana"><input type="text" name="furigana" value="" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" size="40" /></span></td>
+								</tr>
+								<tr>
+									<td class="itemform">メールアドレス※</td>
+									<td class="con"> <span class="wpcf7-form-control-wrap your-email"><input type="text" name="your-email" value="" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" size="40" /></span> </td>
+								</tr>
+								<tr>
+									<td class="itemform_last">詳細</td>
+									<td><span class="wpcf7-form-control-wrap shosai"><textarea name="shosai" class="wpcf7-form-control  wpcf7-textarea" cols="40" rows="10"></textarea></span></td>
+								</tr>
+							</table>
+							<div class="submitbtn" align="center">
+								<input type="submit" value="送信" class="wpcf7-form-control  wpcf7-submit" />
+							</div> -->
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="crea"></div>
+		</div>
+	</div>
+	<div class="crea"></div>
+	<div id="footer">
+		<div id="container" class="container">
+			<div id="contents">
+				<div id="footer_in1">
+					<ul>
+						<li><a href="/"><img src="./assets/img/01.gif" width="34" height="9"></a></li>
+						<li><a href="/aboutus"><img src="./assets/img/12.gif"></a></li>
+						<li><a href="/forcompany"><img src="./assets/img/13.gif"></a></li>
+						<li><a href="/profile"><img src="./assets/img/14.gif"></a></li>
+						
+					</ul>
+					<ul>
+						<li><a href="/brand"><img src="./assets/img/02.gif" width="69" height="11"></a></li>
+						<li><a href="/brand/regentgarden"><img src="./assets/img/03.gif"></a></li>
+						<li><a href="/brand/royalwalton"><img src="./assets/img/04.gif"></a></li>
+						<li><a href="/brand/businessuse"><img src="./assets/img/05.gif" width="59" height="11"></a></li>
+					</ul>
+					<ul>
+						<li><a href="/content01"><img src="./assets/img/07.gif"></a></li>
+						<li><a href="/content02"><img src="./assets/img/08.gif"></a></li>
+						<li><a href="/content03"><img src="./assets/img/09.gif"></a></li>
+						<li><a href="http://www.tea-a.gr.jp/" target="_blank"><img src="./assets/img/15.gif"></a></li>
+					</ul>
+					<div id="footer_logo">
+						<img src="./assets/img/11.gif">
+					</div>
+					<div class="crea"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, '' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
