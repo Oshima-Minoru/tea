@@ -290,6 +290,7 @@ img {
 .contact-table input{
   width: 100%;
   height: 100%;
+  padding: 5px 0;
 }
 .contact-table textarea{
   width: 100%;
