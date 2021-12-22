@@ -219,7 +219,8 @@ html{
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  padding-left: 0px;
+  padding-left: 10px;
+  white-space: nowrap;
 }
 .boder_none {
   border-top-width: 0px;
@@ -634,6 +635,9 @@ p {
   padding-bottom: 5px;
   padding-left: 5px;
 }
+#client_in1 img {
+  width: 100%;
+}
 #client_box2 h4 {
   background-color: #FFF;
   margin: 0px;
@@ -924,7 +928,7 @@ p {
 
 @media (max-width: 900px) {
   #container {
-      width: 630px;
+      width: 720px;
   }
   /* #placetable tr p{
     width: 50% !important;
